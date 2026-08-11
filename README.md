@@ -46,6 +46,7 @@ The dashboard empowers executive stakeholders to track revenue growth, evaluate 
 
 ### 3. Data Governance & Security
 * **Dynamic Role-Level Security (RLS):** Implemented dynamic user security rules based on `@USERPRINCIPALNAME()` to restrict regional managers to their assigned territories.
+![Interactive Dashboard Demo](images/GIF/Dynamic_RLS.gif)
 
 ---
 
