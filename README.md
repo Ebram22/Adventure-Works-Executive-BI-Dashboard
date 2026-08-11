@@ -11,8 +11,6 @@ This project delivers an interactive, end-to-end **Power BI Business Intelligenc
 
 The dashboard empowers executive stakeholders to track revenue growth, evaluate customer lifetime value (RFM segmentation), analyze product profitability, and simulate pricing strategies using advanced dynamic modeling.
 
-👉 **[Click Here to Access the Live Interactive Report](https://app.powerbi.com/reportEmbed?reportId=8728cb16-fd52-4bd0-a788-3608798d5434&autoAuth=true&ctid=79454428-4dbe-401a-b2ab-64a5a7069e2b)** *
-
 ---
 
 ## 📸 Interactive Dashboard Preview
@@ -66,11 +64,8 @@ Designed as the primary landing page, this section offers a high-level, 30-day t
 * **App-Like Navigation (Action Buttons):** Engineered a seamless UI experience using Power BI Page Navigation/Bookmarks. Each high-level metric features a "Learn More" interactive button.
 * **Metric Deep-Dive Canvases:** Clicking "Learn More" routes stakeholders to dedicated breakdown pages (e.g., Revenue Details). These micro-pages isolate the exact parameters driving the parent metric, unpacking performance across Top Products, Leading Countries, Customer Segments (RFM), and Categories.
 
-**Executive Landing Page:**
-![Executive Summary](images/Executive%20Summaryx.JPG.png)
-
-**Metric Drill-Down Example (Revenue Details):**
-![Revenue Details](images/Revenue%20Details.JPG)
+**Executive Landing Page in Action:**
+![Metric_Details](images/GIF/Metric_Details.gif)
 
 ### 2. Sales Analysis Overview (Macro Performance)
 Designed to give executives an immediate, data-driven snapshot of business health:
