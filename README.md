@@ -94,7 +94,7 @@ This page provides a geospatial breakdown of performance, focusing on localized 
 
 **Custom Hover Tooltip Feature:**
 
-![Custom Tooltip](images/tooltip.png)
+![Custom Tooltip](images/tooltip2.png)
 
 
 ## 🚀 How to Run / Explore This Project
