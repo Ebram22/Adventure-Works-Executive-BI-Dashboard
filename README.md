@@ -112,11 +112,7 @@ This page provides a geospatial breakdown of performance, focusing on localized 
 * **Return Rate Monitoring:** A dedicated trendline tracks the Return Rate over time, enabling regional managers to spot quality control issues or market-specific anomalies quickly.
 
 **Regional Analysis Overview:**
-![Regional Analysis](images/Regional%20Analysisx.JPG.png)
-
-**Custom Hover Tooltip Feature:**
-
-![Custom Tooltip](images/tooltip2.png)
+![Regional Analysis](images/GIF/Regional_Tool.gif)
 
 
 ## 🚀 How to Run / Explore This Project
