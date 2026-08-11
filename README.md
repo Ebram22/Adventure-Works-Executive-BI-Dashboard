@@ -1,7 +1,9 @@
 # 📊 Adventure Works: Executive Business Intelligence & Sales Analytics
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
-![Tool](https://img.shields.io/badge/Tool-Power_BI-yellow)
+![Tool](https://img.shields.io/badge/Tool-Power_BI-2F4F4F)
+![Tool](https://img.shields.io/badge/Tool-Power_Query-2F4F4F)
+![Tool](https://img.shields.io/badge/Tool-DAX-005A9C)
 ![Data Model](https://img.shields.io/badge/Data_Model-Star_Schema-blue)
 
 ---
