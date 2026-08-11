@@ -1,0 +1,11 @@
+SalesTerritoryKey,Manager ID,Region,Country,Continent
+1,NL01,Northwest,United States,North America
+2,NL01,Northeast,United States,North America
+3,NL01,Central,United States,North America
+4,NL01,Southwest,United States,North America
+5,NL01,Southeast,United States,North America
+6,NL01,Canada,Canada,North America
+7,NL02,France,France,Europe
+8,NL02,Germany,Germany,Europe
+9,NL03,Australia,Australia,Pacific
+10,NL02,United Kingdom,United Kingdom,Europe
