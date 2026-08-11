@@ -124,5 +124,5 @@ This page provides a geospatial breakdown of performance, focusing on localized 
 
 ## ✍️ Author
 * **Role:** Data Analyst / BI Specialist
-* **LinkedIn:** [Your LinkedIn Profile URL]
+* **LinkedIn:** [https://www.linkedin.com/in/ebram-wagdy/]
 * **Portfolio GitHub:** [Your GitHub Profile Link]
