@@ -42,7 +42,7 @@ The dashboard empowers executive stakeholders to track revenue growth, evaluate 
 
 ### 2. Advanced DAX & Analytical Mechanics
 * **Dynamic Field Parameters:** Allowed users to toggle entire report canvases between `Revenue`, `Profits`, and `Orders` on the fly.
-* **What-If Price Simulation:** Built dynamic DAX parameter sliders to simulate price increases/decreases and measure adjusted profit impact.
+* **Targeted Drillthrough Pages:** Created a dedicated Product Analysis drillthrough canvas, allowing users to right-click any product from the main Sales page to instantly inspect its specific margins, price elasticity, and targets.
 * **Time Intelligence Analytics:** Built metrics for YTD, Trailing 90-Day Active Customers, MoM Revenue growth, and Target vs. Actual variance tracking.
 
 ### 3. Data Governance & Security
