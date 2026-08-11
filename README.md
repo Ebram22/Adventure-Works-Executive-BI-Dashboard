@@ -1,4 +1,4 @@
-# 📊 Adventure Works: Executive Business Intelligence & Sales Analytics
+# 📊 Adventure Works Executive BI Dashboard
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![Tool](https://img.shields.io/badge/Tool-Power_BI-2F4F4F)
