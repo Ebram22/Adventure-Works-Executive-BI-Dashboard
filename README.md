@@ -44,6 +44,12 @@ The dashboard empowers executive stakeholders to track revenue growth, evaluate 
 * **Dynamic Field Parameters:** Allowed users to toggle entire report canvases between `Revenue`, `Profits`, and `Orders` on the fly.
 * **Targeted Drillthrough Pages:** Created a dedicated Product Analysis drillthrough canvas, allowing users to right-click any product from the main Sales page to instantly inspect its specific margins, price elasticity, and targets.
 * **Time Intelligence Analytics:** Built metrics for YTD, Trailing 90-Day Active Customers, MoM Revenue growth, and Target vs. Actual variance tracking.
+* **Calculation Groups for Scalable Time Intelligence:** 
+  Utilized  Calculation Groups to dynamically apply Time Intelligence metrics (YTD, MoM, Prior Year Comparison) across multiple base measures, drastically reducing DAX redundancy, optimizing memory footprint, and ensuring clean model scalability.
+* **Automated Peak/Highest Performance Highlighting:** 
+  Engineered dynamic DAX conditional formatting measures across report visuals to automatically highlight peak-performing data points (e.g., top-performing month, category, or product) with distinct visual accents, instantly drawing executive attention to key positive outliers.
+* **Dynamic Contextual KPI Cards (DAX String Manipulation):** 
+  Leveraged advanced DAX Text Functions (`FORMAT`, string concatenation, and dynamic dates) to generate contextual multi-layered KPI sub-titles. These dynamically display key metadata—such as average revenue per customer, comparative MoM date frames (e.g., *Jun 22 vs May 22*), and risk alert summaries—directly inside the visual cards without overloading the canvas.
 
 ### 3. Data Governance & Security
 * **Dynamic Role-Level Security (RLS):** Implemented dynamic user security rules based on `@USERPRINCIPALNAME()` to restrict regional managers to their assigned territories.
@@ -53,8 +59,13 @@ The dashboard empowers executive stakeholders to track revenue growth, evaluate 
 
 ## 📊 Dashboard Page Breakdown
 
-### 1. Sales Analysis Overview
-Focuses on macro-level revenue, order volumes, profit performance, and top/bottom N performing products.
+### 1. Sales Analysis Overview (Macro Performance)
+Designed to give executives an immediate, data-driven snapshot of business health:
+
+* **Executive KPI Cards (Actual vs Target):** Dynamic top-level KPIs tracking Revenue, Profits, and Orders against pre-defined targets, recalculating seamlessly based on user slicer selections.
+* **Trend Analysis with Dynamic Markers:** Line chart highlighting revenue trajectory over time with smart automated markers identifying peak and lowest-performing months.
+* **Month-over-Month (MoM) Performance Cards:** Current-month metrics (Revenue, Orders, Returns) featuring dynamic DAX conditional formatting (Green = Growth / Red = Decline) compared to prior month benchmarks.
+* **Product & Category Breakdown:** Category-level profit comparisons and a Top 10 Products table displaying granular Revenue, Profit, Quantity, and Return volume metrics.
 
 ### 2. Product Performance & What-If Analysis
 Focuses on individual SKU performance, return rates, and scenario testing via dynamic price sliders.
