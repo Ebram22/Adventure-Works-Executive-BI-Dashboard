@@ -80,8 +80,15 @@ Focuses on individual SKU performance, return rates, and scenario testing via dy
 ![Product Analysis](images/product%20analysis.JPG)
 
 ### 3. Customer Intelligence & RFM Segmentation
-Tracks customer acquisition metrics, churn risk, income brackets, and customer lifecycle segments.
+This page shifts the focus from macro-sales to customer lifecycle, retention, and behavioral analytics.
 
+* **Context-Aware KPI Architecture:** Built highly advanced KPI cards featuring underlying trendlines and dynamic DAX string manipulation. 
+  * Leveraging **Calculation Groups** (`SELECTEDMEASURE()`), the cards automatically compute Month-over-Month (MoM) variances alongside dynamic text labels (e.g., *MoM | Jun 22 vs May 22*).
+  * **Churn Rate:** Features a dynamic Risk Alert DAX measure evaluating Recency (`R_Value`). If customers cross the 60-90 day inactivity threshold, the card automatically flags the exact number of users "drifting away".
+  * **Customer Value Metrics:** Automatically calculates and displays contextual metadata such as Average Revenue Per User (ARPU / $/Customer) and Average Order Value (AOV) directly within the KPI frames.
+* **RFM Customer Segmentation:** Implemented a robust Recency, Frequency, Monetary (RFM) model in DAX to classify the customer base into actionable cohorts (*Champions, Loyal Customers, At Risk*).
+* **Demographic ROI:** Visualizes revenue distribution across customer income levels and education categories, paired with a trendline tracking the overall Revenue per Customer over time.
+![Customer Analysis](images/Customers Analysis.png)
 ---
 
 ## 🚀 How to Run / Explore This Project
