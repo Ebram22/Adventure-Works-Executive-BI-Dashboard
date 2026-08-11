@@ -80,8 +80,21 @@ This page shifts the focus from macro-sales to customer lifecycle, retention, an
 * **Demographic ROI:** Visualizes revenue distribution across customer income levels and education categories, paired with a trendline tracking the overall Revenue per Customer over time.
 ![Interactive Dashboard Demo](images/Customers_Analysis.JPG)
 ---
-### 3. Product Performance & What-If Analysis
-Focuses on individual SKU performance, return rates, and scenario testing via dynamic price sliders.
+### 4. Regional & Operational Analysis
+This page provides a geospatial breakdown of performance, focusing on localized current-month health and root-cause analysis for country-specific metrics.
+
+* **Current-Month Conditional KPIs:** The top canvas highlights current-month Revenue, Orders, and Returns against dynamic targets. Built-in conditional formatting instantly communicates if a region is over-performing (Green) or under-performing (Red).
+* **Root-Cause Decomposition Tree:** Utilized a Decomposition Tree visual to dynamically drill down into the driving parameters of Total Revenue. This allows stakeholders to organically unpack the data path from *Country ➔ Customer Segment ➔ Category ➔ Product*, instantly identifying the specific customer base and products dominating any given region.
+* **Geospatial Mapping & Dynamic Metrics:** Integrated an Azure Map for geographic distribution, paired with a dynamic bar chart that toggles between Revenue, Profits, and Orders by country.
+* **Custom Report Page Tooltips (Hidden Insights):** Engineered a custom tooltip page. When users hover over any country on the bar chart, it reveals a granular, hidden canvas displaying the historical Sales Trend (Revenue, Profits, Orders) for that specific region without cluttering the main UI.
+* **Return Rate Monitoring:** A dedicated trendline tracks the Return Rate over time, enabling regional managers to spot quality control issues or market-specific anomalies quickly.
+
+**Regional Analysis Overview:**
+![Regional Analysis](images/Regional%20Analysisx.JPG.png)
+
+**Custom Hover Tooltip Feature:**
+
+![Custom Tooltip](images/tooltip.png)
 
 
 ## 🚀 How to Run / Explore This Project
