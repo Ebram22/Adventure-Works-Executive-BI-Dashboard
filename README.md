@@ -19,7 +19,7 @@ The dashboard empowers executive stakeholders to track revenue growth, evaluate 
 
 > *Demonstrating dynamic report navigation, RLS security view testing, and What-If price elasticity simulations:*
 
-![Interactive Dashboard Demo](images/GIF/Price_Stimulation.mp4)
+![Interactive Dashboard Demo](<video src="images/Price_Stimulation.mp4" controls autoplay loop muted width="100%"></video>)
 
 ---
 
