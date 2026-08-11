@@ -7,15 +7,15 @@
 ---
 
 ## 📌 Executive Summary
-This project delivers an interactive, end-to-end **Power BI Business Intelligence solution** designed for **Adventure Works**, a global manufacturing company. The report transforms fragmented sales, product, customer, and regional operational data into strategic business insights.
+An executive-focused Power BI Business Intelligence solution built to analyze sales performance, profitability, customer behavior, and regional operations for Adventure Works.
 
-The dashboard empowers executive stakeholders to track revenue growth, evaluate customer lifetime value (RFM segmentation), analyze product profitability, and simulate pricing strategies using advanced dynamic modeling.
+The project transforms transactional sales data into an interactive reporting solution that helps business stakeholders monitor KPIs, identify performance drivers, understand customer segments, and evaluate pricing scenarios.
 
 ---
 
-## 📸 Interactive Dashboard Preview
+## 📸 Dashboard Preview
 
-> *Demonstrating dynamic report navigation, RLS security view testing, and What-If price elasticity simulations:*
+> *Demonstrating dynamic report navigation, RLS security view testing, Field Parameters and What-If price elasticity simulations:*
 
 ![Interactive Dashboard Demo](images/GIF/dashboard-demo.gif)
 
@@ -118,11 +118,11 @@ This page provides a geospatial breakdown of performance, focusing on localized 
 ## 🚀 How to Run / Explore This Project
 1. **Interactive Web Link:** Access the published live report directly via the link above.
 2. **Static PDF Report:** Check `reports/` folder for a quick PDF export of all report pages.
-3. **Power BI Desktop File:** Download the `.pbix` file located in `reports/` to inspect the underlying Star Schema model and DAX measures.
 
 ---
 
 ## ✍️ Author
+* **Name:** Ebram Wagdy
 * **Role:** Data Analyst / BI Specialist
 * **LinkedIn:** [https://www.linkedin.com/in/ebram-wagdy/]
-* **Portfolio GitHub:** [Your GitHub Profile Link]
+* **Portfolio GitHub:** [https://github.com/Ebram22]
