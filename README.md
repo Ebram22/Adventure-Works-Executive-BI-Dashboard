@@ -58,8 +58,21 @@ The dashboard empowers executive stakeholders to track revenue growth, evaluate 
 ---
 
 ## 📊 Dashboard Page Breakdown
+### 1. Executive Summary & Dynamic Narratives
+Designed as the primary landing page, this section offers a high-level, 30-day trailing snapshot of core business health, heavily focusing on an intuitive, web-app-like user experience.
 
-### 1. Sales Analysis Overview (Macro Performance)
+* **Dynamic Smart Narratives:** Instead of displaying static numbers, the KPIs utilize advanced DAX string manipulation to generate human-readable, actionable context. For example, the text dynamically updates to identify the exact category driving the current month's revenue (e.g., *driven primarily by strong sales in the Bikes Category*).
+* **Trailing 30-Day Conditional Metrics:** Evaluates short-term performance (Units Sold, Net Revenue, Cost of Goods, Net Profits) using automated conditional formatting to instantly flag over-performing or under-performing metrics against prior periods.
+* **App-Like Navigation (Action Buttons):** Engineered a seamless UI experience using Power BI Page Navigation/Bookmarks. Each high-level metric features a "Learn More" interactive button.
+* **Metric Deep-Dive Canvases:** Clicking "Learn More" routes stakeholders to dedicated breakdown pages (e.g., Revenue Details). These micro-pages isolate the exact parameters driving the parent metric, unpacking performance across Top Products, Leading Countries, Customer Segments (RFM), and Categories.
+
+**Executive Landing Page:**
+![Executive Summary](images/Executive%20Summaryx.JPG.png)
+
+**Metric Drill-Down Example (Revenue Details):**
+![Revenue Details](images/Revenue%20Details.JPG)
+
+### 2. Sales Analysis Overview (Macro Performance)
 Designed to give executives an immediate, data-driven snapshot of business health:
 
 * **Executive KPI Cards (Actual vs Target):** Dynamic top-level KPIs tracking Revenue, Profits, and Orders against pre-defined targets, recalculating seamlessly based on user slicer selections.
@@ -69,7 +82,7 @@ Designed to give executives an immediate, data-driven snapshot of business healt
 
 
 
-### 2. Customer Intelligence & RFM Segmentation
+### 3. Customer Intelligence & RFM Segmentation
 This page shifts the focus from macro-sales to customer lifecycle, retention, and behavioral analytics.
 
 * **Context-Aware KPI Architecture:** Built highly advanced KPI cards featuring underlying trendlines and dynamic DAX string manipulation. 
