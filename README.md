@@ -123,6 +123,6 @@ This page provides a geospatial breakdown of performance, focusing on localized 
 
 ## ✍️ Author
 * **Name:** Ebram Wagdy
-* **Role:** Data Analyst / BI Specialist
+* **Role:** Data Analyst / BI Developer
 * **LinkedIn:** [https://www.linkedin.com/in/ebram-wagdy/]
 * **Portfolio GitHub:** [https://github.com/Ebram22]
