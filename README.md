@@ -35,6 +35,8 @@ The dashboard empowers executive stakeholders to track revenue growth, evaluate 
 
 ### 1. Data Modeling & ETL (Power Query)
 * **Star Schema Architecture:** Designed a clean multi-fact, multi-dimension schema to optimize DAX query performance and relationships.
+![Adventure Works Data Model](images/Modeling.png)
+
 * **ETL Transformations:** Handled missing values, standardized text fields, and created custom date tables to enable Time Intelligence analytics.
 
 ### 2. Advanced DAX & Analytical Mechanics
