@@ -21,11 +21,25 @@ The dashboard empowers executive stakeholders to track revenue growth, evaluate 
 
 ---
 
-## 💡 Key Business Questions Answered
-* **Sales Performance:** Which product categories drive the highest net revenue and profit margins?
-* **Product Optimization:** How do price changes directly impact forecasted profit margins across product lines?
-* **Customer Segmentation:** Who are our most valuable customers (Champions vs. At-Risk), and what is our active customer retention rate?
-* **Regional Dynamics:** Which countries demonstrate high return rates or margin compression?
+## 💡 Strategic Business Questions Answered
+
+Instead of basic descriptive analytics, this dashboard is engineered to answer complex, diagnostic, and predictive business queries for executive stakeholders:
+
+**1. Customer Retention & Lifetime Value (RFM):**
+* How is our customer base distributed across loyalty cohorts (Champions vs. Loyal vs. At-Risk), and what is the exact financial impact (ARPU) of our current churn rate?
+* Which demographic segments (Income Level & Education) are generating the highest average order value (AOV)?
+
+**2. Price Elasticity & Profitability (What-If Analysis):**
+* How do hypothetical price adjustments on specific top-tier SKUs impact our overall forecasted profit margins and net revenue?
+* Which specific products are driving our net profits, and how do their return rates affect the bottom line?
+
+**3. Regional Root-Cause Analysis:**
+* What are the precise micro-drivers (down to the product category and customer segment level) fueling revenue growth or decline in specific geographic regions?
+* Are localized return rates remaining within acceptable thresholds, or are there regional quality-control anomalies?
+
+**4. Executive Performance Tracking:**
+* Are our current 30-day trailing metrics for net revenue and order volume outpacing historical Month-over-Month (MoM) benchmarks?
+* What specific categories are the primary catalysts behind our short-term revenue spikes or dips?
 
 ---
 
