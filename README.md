@@ -90,8 +90,7 @@ Designed to give executives an immediate, data-driven snapshot of business healt
 * **Trend Analysis with Dynamic Markers:** Line chart highlighting revenue trajectory over time with smart automated markers identifying peak and lowest-performing months.
 * **Month-over-Month (MoM) Performance Cards:** Current-month metrics (Revenue, Orders, Returns) featuring dynamic DAX conditional formatting (Green = Growth / Red = Decline) compared to prior month benchmarks.
 * **Product & Category Breakdown:** Category-level profit comparisons and a Top 10 Products table displaying granular Revenue, Profit, Quantity, and Return volume metrics.
-
-
+![Sales Analysis ](images/GIF/S_Int.gif)
 
 ### 3. Customer Intelligence & RFM Segmentation
 This page shifts the focus from macro-sales to customer lifecycle, retention, and behavioral analytics.
